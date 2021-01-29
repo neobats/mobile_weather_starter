@@ -116,8 +116,8 @@ const styles = StyleSheet.create({
     ...Platform.select({
       ios: { fontFamily: "AvenirNext-Regular" },
       android: { fontFamily: "Roboto" },
-      color: "white",
     }),
+    color: "white",
   },
   largeText: {
     fontSize: 44,
